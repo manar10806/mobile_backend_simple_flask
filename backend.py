@@ -5,7 +5,7 @@ import datetime
 app = Flask(__name__)
 
 
-@app.route('/news.all.get')
+@app.route(' https://mobile-backend-simple-flask-5w0x.onrender.com/news.all.get')
 def get_news_all_articles():
 	data=[]
 	with open('news_data.json', 'r') as file:
